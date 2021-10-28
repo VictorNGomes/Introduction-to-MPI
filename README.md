@@ -8,7 +8,7 @@ $ sudo apt-get install -y openmpi-bin
 #### Compiling MPI Programs
 
 ```
-mpixx -o hello_world hello_world.cpp
+mpicxx -o hello_world hello_world.cpp
 ```
 #### Executing MPI Programs
 
