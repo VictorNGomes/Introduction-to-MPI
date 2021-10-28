@@ -2,21 +2,17 @@
 
 ### Installing MPI on Ubuntu
 ```
-$ sudo apt-get install libcr-dev mpich2 mpich2-doc
-```
-or
-```
 $ sudo apt-get install -y openmpi-bin
 ```
 
 #### Compiling MPI Programs
 
 ```
-mpicc -o hello_world_c hello_world.c
+mpixx -o hello_world hello_world.cpp
 ```
 #### Executing MPI Programs
 
 ```
-mpiexec -np 4 ./hello_world_c
+mpirun -np 4 ./hello_world
 ```
 > -np : Number of Processes
