@@ -1,9 +1,14 @@
 # Introduction-to-MPI
 
-Run the following command on `terminal`
+### Installing MPI on Ubuntu
 ```
 $ sudo apt-get install libcr-dev mpich2 mpich2-doc
 ```
+or
+```
+$ sudo apt-get install -y openmpi-bin
+```
+
 #### Compiling MPI Programs
 
 ```
